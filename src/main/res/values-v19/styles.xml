@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+    <style name="AppTheme.TranslucentStatus" parent="AppTheme">
+        <!-- 沉浸式体验 透明状态栏-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+</resources>

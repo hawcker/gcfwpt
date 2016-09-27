@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="target-densityDpi=high-dpi,user-scalable=0">
+    <title>出错了${errorNo}</title>
+    <style type="text/css">
+        body,div,p,ul,ol,li,textarea,form,input,h1,h2,h3,h4,h5,dl,dt,dd,img{
+        margin:0;
+        padding:0;
+        }
+        html,body{
+        height:100%;
+        }
+        body{
+        font:14px/21px sans-serif "HelveticaNeue","Helvetica Neue",Helvetica,Arial;
+        color:#6b6b6b;
+        -webkit-text-size-adjust:none;
+        -webkit-touch-callout:none;
+        -webkit-user-select:text;
+        word-break:break-all;
+        word-wrap:break-word;
+        overflow-x:hidden
+        }
+        a{
+        text-decoration:none;
+        }
+        .horizontal-box{
+        width:100%;
+        display:-webkit-box;
+        -webkit-box-sizing:border-box;
+        -webkit-box-orient:horizontal;
+        -webkit-box-pack:start;
+        padding:50px 50px 50px 50px;
+        -webkit-box-align:start
+        }
+        .errordescription{
+        text-align:center;
+        font-size:55px;
+        font-color:black;
+        font-weight:bold;
+        }
+        .wrap{
+        width:700px;
+        margin:0 auto;
+        padding-top:35px;
+        }
+        .rightlist{
+        padding-left:25px;
+        }
+        .rightlist li{
+        padding:10px 10px 28px;
+        }
+        .f20{
+        font-size:40px;
+        }
+        .w290{
+        width:700px;
+        margin:0 auto;
+        }
+        .btn-section{
+        margin-top:50px;
+        margin-left:150px;
+        }
+        .btn-section a{
+        color:#6fb4f5;
+        font-size:43px;
+        margin-right:70px;
+        }
+        .btn-section a:visited{
+        color:#6fb4f5;
+        }
+        .btn-section img{
+        vertical-align:-6px;
+        }
+    </style>
+    <script type="text/javascript">
+        function network_setting(){
+            Javascript.network_setting();
+        }
+    </script>
+</head>
+<body>
+<div id="content" align="center">
+    <br>
+    <br><br>
+    <br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br>
+    <img src="file:///android_asset/errorpage/error_net_disconnect.png"/>
+</div>
+<div class="wrap">
+    <div class="errordescription">找不到网页，再刷新试试！</div>
+    <br><br><br>
+    <hr style="height:2px;background-color:black">
+    <br>
+    <div class="w290 horizontal-box f20">
+        <div class="left">可能原因：</div>
+        <div class="rightlist">
+            <ul>
+                <li>页面不存在，或者暂时故障</li>
+                <li>域名解析出错</li>
+                <li>输入网址不正确</li>
+            </ul>
+        </div>
+    </div>
+    <div class="btn-section">
+        <a href="javascript:window.location.reload()">
+            <img src="file:///android_asset/errorpage/error_refresh.png" alt=""/>
+            刷新
+        </a>
+        <a href="javascript:network_setting()">
+            <img src="file:///android_asset/errorpage/error_settings.png" alt=""/>
+            设置
+        </a>
+    </div>
+</div>
+</body>
+</html>

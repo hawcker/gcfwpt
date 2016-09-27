@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">#ffeef1f3</color>
+    <color name="blue2">#ff54acea</color>
+    <color name="border_ellipse">#FF3C00</color>
+    <color name="alpha50">#50000000</color>
+    <color name="textview_1_8">#ffff8c19</color>
+    <color name="border_ellipse2">#ffff5f1c</color>
+    <color name="border_ellipse_pressed">#ffff0302</color>
+    <color name="border">#ffffff</color>
+    <color name="black_16">#28000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey"> #808080</color>
+    <color name="gray"> #747474</color>
+    <color name="black"> #000000</color>
+    <color name="blue1"> #0561FA</color>
+    <color name="blue"> #0000CC</color>
+    <color name="red"> #FF0000</color>
+    <color name="blue3"> #3366FF</color>
+    <color name="bg_all">#ddddff</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="limit_buy_border_bg">#ffd4bc77</color>
+    <color name="search_toolbar_bg">#ff484B50</color>
+    <color name="toast_color">#ff2E76B9</color>
+    <color name="login_button">#ff775025</color>
+    <color name="text_color">#ff434343</color>
+    <color name="background_normal">#fffffbf0</color>
+    <color name="font_value">#ff888271</color>
+    <color name="profile_bottom_text_color">#ff262626</color>
+    <color name="dark_red">#ff8c1c1c</color>
+    <color name="light_gray">#ffececec</color>
+    <color name="light_yellow">#fffff99e</color>
+    <color name="dark_gray">#ff999999</color>
+    <color name="orange">#FFB764</color>
+    <color name="silver">#ffecebe8</color>
+
+ <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+ <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+ <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="color_white">#ffffffff</color>
+    <color name="text_color_gray_secondary">#8a000000</color>
+    <color name="btn_green_pressed">@color/echo_dark_green</color>
+    <color name="btn_green_default">@color/echo_green</color>
+    <color name="echo_dark_green">#ff00ae05</color>
+    <color name="echo_green">#ff6ed56c</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="text_color_gray">#ff666666</color>
+    <color name="divider_color_gray">#1e000000</color>
+    <color name="text_color_gray_hint">#42000000</color>
+    <color name="edit_gray_stroke">#ffcccccc</color>
+    <color name="yellow_warning">#FFFF99</color>
+    <color name="colorPrimaryDark">#ff2b4d90</color>
+    <!-- 沉浸模式 -->
+    <color name="actionbar_bg">#FF0099CC</color>
+    <color name="statusbar_bg">#FF0099CC</color>
+    <color name="actionbar_bg_bg">#0F67A3</color>
+    <!--底部导航条 -->
+    <color name="nav_preess_color">#4DC1F0</color>
+    <color name="nav_normal_color">#b5b5b5</color>
+</resources>
